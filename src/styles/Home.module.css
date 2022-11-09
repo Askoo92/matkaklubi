@@ -1,131 +1,233 @@
-.container {
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.header {
-  padding: 4rem 0 2rem 0;
-}
-
-.main {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-width: 500px;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-  font-weight: bold;
-}
-
-.title,
-.desc {
-  text-align: center;
-}
-
-.desc {
-  line-height: 1.5;
-  font-size: 1rem;
-  font-weight: normal;
-}
-
-.addTodo {
-  display: flex;
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 2rem;
-}
-
-.input {
-  padding: 1rem;
-  border: solid 2px;
-  border-color: #cccccc;
-  border-radius: 4px;
-  flex-grow: 1;
-  margin-right: 0.5rem;
-  font-size: 1em;
-}
-
-.addButton {
-  width: 80px;
-  color: white;
-  background-color: #0070f3;
-  border-color: #0070f3;
-  font-size: 1em;
-  border: solid 2px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.addButton:hover {
-  color: #0070f3;
-  background-color: white;
-  border-color: #0070f3;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.todoList {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.todo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.label {
-  flex-grow: 1;
-  font-size: 1.1rem;
-  padding: 0.5rem 0;
-  cursor: pointer;
-}
-
-.checkbox {
-  margin-right: 1rem;
-}
-
-.checked {
-  text-decoration: line-through;
-}
-
-.deleteButton {
-  font-size: 1rem;
-  border: none;
-  background: none;
-  color: darkgrey;
-  cursor: pointer;
-}
-
-.deleteButton:hover {
-  color: var(--primary);
-}
-
-.emptyState {
-}
-
-@media (max-width: 600px) {
-  .main {
-    min-width: auto;
-    width: 100%;
+.pais {
+    background-image: url("../../public/Hills.png");
+    height: 778px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+    padding-left: 72px;
+    padding-right: 80px;
   }
+  
+  .paisAlumine {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .paisAlumineSisu {
+    margin-top: 230px;
+  }
+  
+  .pealkirjad {
+    font-weight: 800;
+    letter-spacing: 0px;
+    color: #0B0B0B;
+  }
+  
+  
+  .paisAlumineSisuH2 {
+    font-size: 40px;
+    margin: 0;
+  }
+  
+  .paisAlumineSisuH1 {
+    font-size: 74px;
+    margin: 0;
+  }
+  
+  .paisAlumineSisuH4 {
+    font-size: 21px;
+    margin-top: 14px;
+    max-width: 477px;
+  }
+  
+  .paisAlumineSisuNupp {
+    background: #0B0B0B 0% 0% no-repeat padding-box;
+    letter-spacing: 2.25px;
+    color: #FFFFFF;
+    font-weight: 800;
+    padding: 21px 25px;
+    font-size: 12.5px;
+    border: none;
+  }
+  
+  .paisAluminePilt {
+    background-image: url("../../public/pilt.png");
+    height: 915px;
+    width: 915px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: -300px;
+    border-radius: 500px;
+  }
+
+  .teine {
+    padding-left: 79px;
+    margin-top: 120px;
+}
+
+.teine>.ylemine>h3.hall {
+    color: gray;
+    text-transform: uppercase;
+    font-size: 42px;
+}
+
+.teine>.ylemine>h3 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 58.33px;
+    letter-spacing: -1.08px;
+    margin: 0;
+    max-width: 500px;
+}
+
+.teine>.alumine {
+    display: flex;
+    gap: 34px;
+    justify-content: space-between;
+}
+
+.teine>.alumine>.vasak {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin-top: 25px;
+}
+
+.teine>.alumine>.vasak>section {
+    letter-spacing: 0px;
+    color: gray;
+    font-size: 21px;
+    line-height: 33px;
+    margin-bottom: 150px;
+}
+
+.teine>.alumine>.vasak>.nooled {
+    font-size: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.nooled>.vasak,
+.nooled>.parem {
+    font-size: 72px;
+}
+
+.nooled>.kaldkriips {
+    margin: 0 10px;
+}
+
+.nooled>.kaldkriips,
+.nooled>.lehekyljed,
+.nooled>.parem {
+    color: #9A9A9A;
+}
+
+.nooled>.kaldkriips,
+.nooled>.lehekyljed {
+    font-size: 36px;
+}
+
+.nooled>.lehekyljed {
+    margin-top: 6px;
+}
+
+.teine>.alumine>.parem {
+    display: flex;
+    margin-top: 25px;
+    margin-right: -150px;
+}
+
+.teine>.alumine>.parem>.pilt {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 406px;
+    width: 309px;
+    margin-left: 34px;
+}
+
+.teine>.alumine>.parem>.pilt1 {
+    background-image: url("../../public/tudruk.png");
+    box-shadow: 28px 29px 119px -16px rgba(0, 0, 0, 0.75);
+}
+
+.teine>.alumine>.parem>.pilt2 {
+    background-image: url("../../public/poiss.png");
+
+}
+
+.teine>.alumine>.parem>.pilt3 {
+    background-image: url("../../public/poisid.png");
+
+}
+
+.jalus {
+    background: #F3F3F3 0% 0% no-repeat padding-box;
+    height: 276px;
+    margin-left: 56px;
+    margin-right: 57px;
+    padding-left: 56px;
+    margin-bottom: 60px;
+}
+
+.jalus>nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56.31px;
+    padding-right: 47.3px;
+    align-items: center;
+}
+
+.logo-pilt2 {
+    height: 53px;
+}
+
+.logo-tekst2 {
+    font-size: 27px;
+    font-weight: 800;
+    line-height: 35px;
+    color: #0B0B0B;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.all>.tekst>h5 {
+    background-color: black;
+    display: inline;
+    font-size: 22.37px;
+    margin: 3px;
+    background-color: #000000;
+    letter-spacing: 0px;
+    text-align: center;
+    text-align: left;
+    letter-spacing: NaNpx;
+    color: #FFFFFF;
+}
+
+.all>.tekst>h6 {
+    font-size: 32.69px;
+    margin: 3px;
+    background-color: #000000;
+    text-align: center;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    height: 30px;
+    display: inline-block;
+    
+}
+
+.all>.keskmine>section {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16.67px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #010101;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
 }
