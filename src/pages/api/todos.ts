@@ -19,7 +19,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
     res.json(todo);
   } else if (req.method === "PUT") {
-    // update todo
+    // update todoyarn run test -o --watch
     const id = req.query.todoId as string;
     const data = JSON.parse(req.body);
     const todo = await prisma.todo.update({
