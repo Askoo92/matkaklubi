@@ -30,10 +30,10 @@ export default () => {
                 <Link href="/treks">
                     <a className={styles.paremPoolLink}>UPCOMING TREKS</a>
                 </Link>
-                <Link href="/">
+                <Link href="/treksForfamily">
                     <a className={styles.paremPoolLink}>TREKS FOR FAMILY</a>
                 </Link>
-                <Link href="/">
+                <Link href="/contactUs">
                     <a className={styles.paremPoolLink}>CONTACT US</a>
                 </Link>
             </div>

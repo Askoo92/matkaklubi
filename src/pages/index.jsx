@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Navigatsioon from "../components/Navigatsioon";
+import contactUs from "./contactUs";
 
 
 const Pais = () => {
