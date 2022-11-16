@@ -31,3 +31,10 @@ model Trek {
   imageUrl            String
 }
 
+model ContactUsMessage {
+  id            String   @id @default(uuid())
+  createdAt     DateTime @default(now())
+  clientName    String
+  clientEmail   String
+  clientMessage String
+}

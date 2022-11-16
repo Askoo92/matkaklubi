@@ -37,3 +37,17 @@
     color: #000000;
     text-decoration: none;
 }
+
+.paisAlumineSisu {
+    margin-top: 230px;
+  }
+
+.paisAlumineSisuNupp {
+    background: #0B0B0B 0% 0% no-repeat padding-box;
+    letter-spacing: 2.25px;
+    color: #FFFFFF;
+    font-weight: 800;
+    padding: 21px 25px;
+    font-size: 12.5px;
+    border: none;
+  }
