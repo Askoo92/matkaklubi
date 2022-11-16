@@ -3,7 +3,6 @@ import styles from "../styles/Home.module.css";
 import Navigatsioon from "../components/Navigatsioon";
 import contact from "./contact";
 import treks from "./treks";
-import Nav2 from "../components/Nav2";
 
 const Pais = () => {
   return (
